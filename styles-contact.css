@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/rocksbackground.jpg)
+  background: url(images/leaf_background.jpg)
       center center fixed no-repeat; 
     background-size: cover;
     font-family: "helvetica", sans-serif;
@@ -72,7 +72,7 @@ html, body {
     width: 80%; /*added this to make div responsive*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(256, 256, 256, .80); /*this uses opacity of 60% for the background color*/
+ 	background: rgba(40, 90, 90, .60); /*this uses opacity of 50% for the background color*/
 	text-align: center;
 	border: 10px white;
 }
@@ -86,39 +86,30 @@ html, body {
 }
 
 h1 {
-	font-family: beastly, sans-serif;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #DA8972;
-}
-
-h2 {
-    font-family: beastly, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #DA8972;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+	font-family: Bely Display, sans-serif;
+	font-size: 2.7em;
+    margin: 15px auto 60px auto;
+    color: #FFF1D7;
 }
 
 p {
-	font-family: avenir, sans-serif;
-	font-size: 1.2em;
+	font-family: Abril Fatface, sans-serif;
+	font-size: 1.4em;
     line-height: 1.6;
-    color: #DA8972;
+    color: #FFF1D7;
+    
 }
     
 nav{
-    font-family: avenir;
-    font-size: 1.2em;
+    font-family: Bely Display;
+    font-size: 2.6em;
     width: 400px;
     margin: 0 auto;
     border: white; 
     border-width: 3px 0;
     text-align: center;
-    margin-top: 2em;  
+    margin-top: .3em; 
+    
     }   
 nav li{
     display:inline;
@@ -127,17 +118,18 @@ nav li{
 
 nav a{
     display:inline-block;
-    padding: 10px;  
+    padding: 50px;  
     }
 
 a{
-    color:#E07455;
+    color:#9ED19C;
     text-decoration: bold;
     font-weight: bold;
     }
 a:hover{
     color:black;
     background:white;
+    opacity: .40
     }
 
 
