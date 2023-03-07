@@ -59,10 +59,10 @@ html, body {
   height: 100%;
   width: 100%;
   padding: 0;
-  margin: 0;
-  background: url(images/leaf_background.jpg)
+  margin: 0;    
+  background: url(images/San_Francisco.jpg)
       center center fixed no-repeat; 
-    background-size: cover;
+    background-size: cover; 
     font-family: "helvetica", sans-serif;
 	
 	
@@ -72,7 +72,7 @@ html, body {
     width: 80%; /*added this to make div responsive*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(40, 90, 90, .60); /*this uses opacity of 50% for the background color*/
+ 	background: rgba(255, 250, 255, .80); /*this uses opacity of 50% for the background color*/
 	text-align: center;
 	border: 10px white;
 }
@@ -86,27 +86,29 @@ html, body {
 }
 
 h1 {
-	font-family: Bely Display, sans-serif;
-	font-size: 2.7em;
+	font-family: Optima, sans-serif;
+	font-size: 1.6em;
     margin: 15px auto 60px auto;
-    color: #FFF1D7;
+    color: #000000;
 }
 
 p {
-	font-family: Abril Fatface, sans-serif;
-	font-size: 1.4em;
-    line-height: 1.6;
-    color: #FFF1D7;
+	font-family: Optima, sans-serif;
+	font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 50px auto 60px auto;
+    color: #000000;
     
 }
     
 nav{
-    font-family: Bely Display;
-    font-size: 2.6em;
+    font-family: Optima;
+    font-size: 1.7em;
     width: 400px;
     margin: 0 auto;
     border: white; 
-    border-width: 3px 0;
+    border-width: 2px 0;
     text-align: center;
     margin-top: .3em; 
     
@@ -122,7 +124,7 @@ nav a{
     }
 
 a{
-    color:#9ED19C;
+    color:#000000;
     text-decoration: bold;
     font-weight: bold;
     }
