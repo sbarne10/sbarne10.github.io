@@ -242,11 +242,71 @@ aside{
  
 }
 
-    
+
+@media screen and (min-width: 40em) {
+    nav ul li {
+        display: inline;
+        margin-right: 0.75rem;
+    }
+
+    header, footer {
+        padding: 1rem 0 0 0;
+    }
+
+    h2, p, figcaption {
+        margin: 0;
+    }
+
+    p {
+        padding-bottom: .8em;
+    }
+
+    main p {
+        margin: 0 0 1rem 0;
+    }
+
+    aside p {
+        margin: 0 0 0.7rem 0;
+    }
+
+}
+
+@media screen and (min-width: 40em) {
+    nav ul li {
+        display: inline;
+        margin-right: 0.75rem;
+    }
+
+    header, footer {
+        padding: 1rem 0 0 0;
+    }
+
+    h2, p, figcaption {
+        margin: 0;
+    }
+
+    p {
+        padding-bottom: .8em;
+    }
+
+    main p {
+        margin: 0 0 1rem 0;
+    }
+
+    aside p {
+        margin: 0 0 0.7rem 0;
+    }
+
+}
+
 @media  only screen and (max-width: 40em) {
 
-    h2, p, header{
-        padding: 0 10em 0em 10em;
+    h2, header{
+        padding: 1em 10em 1em .5em;
+    }
+
+    p{
+        padding: 0 0 3em 1em
     }
 }
 
