@@ -144,7 +144,7 @@ aside{
 .main-photogallery{
     position: relative;
     overflow: hidden;
-    padding-bottom: calc(66% + 5em);
+    padding-bottom: calc(66% + 7em);
 }
 
 
@@ -168,7 +168,7 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 div.photogallery nav {
     display: grid;
     grid-template-columns:repeat(8, 1fr);
-    grid-gap: .2em;
+    grid-gap: .3em;
 }
 
 div.photogallery input {
@@ -395,7 +395,7 @@ button {
     }
 
     p{
-        padding: 0 0 3em 1em
+        padding: 0 0 3em 1em;
     }
 }
 
@@ -405,3 +405,105 @@ button {
             padding: 0 10em 0em 10em;
         }
     }
+
+
+@media screen and (prefers-color-scheme: dark) {
+/* Inside the media query, you want to make the necessary changes for your website to adapt to the different color scheme. Most changes will be in the color or background-color properties.
+*/
+body {
+    background-color: rgb(41, 41, 25);
+}
+header h1 img {
+    opacity: 0;
+}
+
+h1 img {  
+    opacity: 0;  
+    }  
+
+h1 {
+    background-image: url("HG_Logo_alt.png");
+    background-repeat: no-repeat;  
+    background-size: contain;  
+}
+
+h2 {
+    color: rgb(249, 246, 182);
+}
+
+p, li {
+    color: rgb(232, 240, 245);
+}
+
+figcaption {
+    color: rgb(250, 249, 215);
+}
+
+nav ul li a {
+    color:  rgb(232, 240, 245);
+}
+
+nav ul li a:hover {
+    color: rgb(237, 237, 179);
+}
+
+h3 {
+    color: rgb(249, 246, 182);
+}
+
+section.tertiary-story {
+    border-top: 2px solid rgb(234, 163, 236);
+}
+
+form {
+    background-color:rgb(41, 41, 25);
+}
+
+textarea {
+    background: rgb(41, 41, 25);
+    border: 2px solid rgb(237, 237, 179);
+    color: rgb(249, 202, 144);
+}
+
+section.personal-info ul li input[type="text"] {
+    border: 2px solid rgb(234, 163, 236);
+    color: rgb(237, 237, 179);
+    background: rgb(41, 41, 25); 
+}
+
+section.personal-info ul li select {
+    background-color: rgb(41, 41, 25);
+}
+
+section label[for = feedback] {
+    display: block;
+    font-family: serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0 .2rem 0 .2rem;
+    color: rgb(237, 237, 179);
+}
+
+button[type = subscribe] {
+    font-family: serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(41, 41, 25);
+    background-color: rgb(237, 237, 179);
+    margin: 0 .2rem 0 .2rem;
+}
+
+aside{
+    background-color: rgb(12, 80, 68);
+}
+
+footer {
+background-color: rgb(12, 80, 68); 
+padding: .8rem .3rem .8rem .3rem;;
+width: 100%;
+box-sizing: border-box;
+}
+
+}
+    
+    
